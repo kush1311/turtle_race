@@ -35,10 +35,10 @@ while is_race_on:
             winning_color = turtle.color()[0]
             if winning_color == user:
                 winning_name = list_name[winning_color]
-                print(f"You've won! The {winning_name} turtle is the winner!")
+                print(f"You've won! {winning_color} turtle , turtle of {winning_name} is the winner!")
             else:
                 winning_name = list_name[winning_color]
-                print(f"You've lost! The {winning_name} turtle is the winner!")
+                print(f"You've lost! {winning_color} turtle , turtle of {winning_name} is the winner!")
 
         rand_distance = random.randint(0, 10)
         turtle.forward(rand_distance)
