@@ -23,7 +23,7 @@ for turtle_index in range(0, 6):
     new_turtle.goto(x=-490, y=y_positions[turtle_index])
     all_turtles.append(new_turtle)
 
-user = screen.textinput("Make a bet", "Which turtle will win?")
+user = screen.textinput("Make a bet", "Who will win the matcg ? (bhavik , kushal , dharmil , ravi ,harsh ,dhruv)")
 
 if user:
     is_race_on = True 
